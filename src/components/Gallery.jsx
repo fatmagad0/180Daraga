@@ -1,14 +1,25 @@
+import home1 from "../assets/home1.jpeg";
+import home2 from "../assets/home2.jpg";
+import home3 from "../assets/home3.jpeg";
+import home4 from "../assets/home4.jpg";
+import home5 from "../assets/home5.jpeg";
+import home6 from "../assets/home6.jpg";
+import home7 from "../assets/home7.jpeg";
+import home8 from "../assets/home8.jpeg";
 
 function Gallery() {
   return (
-    <section className="py-12 px-4 bg-gray-100">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-        <img src="/img1.jpg" alt="event" className="w-full h-64 object-cover" />
-        <img src="/img2.jpg" alt="event" className="w-full h-64 object-cover" />
-        <img src="/img3.jpg" alt="event" className="w-full h-64 object-cover" />
-        <img src="/img4.jpg" alt="event" className="w-full h-64 object-cover" />
-        <img src="/img5.jpg" alt="event" className="w-full h-64 object-cover" />
-        <img src="/img6.jpg" alt="event" className="w-full h-64 object-cover" />
+    <section className="py-1 px-1 bg-gray-100">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-1">
+        <img src={home1} alt="home1" className="w-full h-48 object-cover " />
+        <img src={home2} alt="home2" className="w-full h-48 object-cover" />
+        <img src={home3} alt="home3" className="w-full h-48 object-cover" />
+        <img src={home4} alt="home4" className="w-full h-48 object-cover" />
+        <img src={home5} alt="home5" className="w-full h-48 object-cover" />
+        <img src={home6} alt="home6" className="w-full h-48 object-cover" />
+        <img src={home7} alt="home7" className="w-full h-48 object-cover" />
+        <img src={home8} alt="home8" className="w-full h-48 object-cover" />
+
       </div>
     </section>
   );
