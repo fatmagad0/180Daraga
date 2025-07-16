@@ -1,5 +1,6 @@
-import  teamHierarchy from "../assets/teamHierarchy.jpeg";
+import  teamHierarchy from "../assets/teamHierarchy/teamHierarchy.jpeg";
 import Hero from "../components/Hero";
+import Members from "../components/Members";
 function TeamHierarchy() {
   return (
     <div> 
@@ -10,6 +11,7 @@ function TeamHierarchy() {
           title="TEAMHIERARCHY"
           subtitle="MEET OUR TRUSTY MASTERMINDS BEHIND OUR WORK!"
       />
+      <Members/>
     </div>
   )
 }

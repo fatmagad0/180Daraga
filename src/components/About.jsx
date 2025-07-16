@@ -1,11 +1,9 @@
-import React from "react";
-
 function About() {
   return (
     <div>
-      <section className="py-16 bg-white text-center px-4">
-        <h2 className="text-3xl text-orange-900 font-semibold mb-4">ABOUT US</h2>
-        <p className="max-w-3xl mx-auto text-gray-700">
+      <section className="py-18 bg-white text-center px-4">
+        <h2 className="text-3xl text-orange-900 font-bold mb-4">ABOUT US</h2>
+        <p className="max-w-5xl mx-auto text-gray-700 py-4">
           180 Daraga is non-profit organization, founded in 2010 at Faculty of
           Computers and Information Cairo University. And in 2014 at Faculty of
           Computer and Information Helwan University. And in 2018 at Faculty of

@@ -1,11 +1,11 @@
-import home1 from "../assets/home1.jpeg";
-import home2 from "../assets/home2.jpg";
-import home3 from "../assets/home3.jpeg";
-import home4 from "../assets/home4.jpg";
-import home5 from "../assets/home5.jpeg";
-import home6 from "../assets/home6.jpg";
-import home7 from "../assets/home7.jpeg";
-import home8 from "../assets/home8.jpeg";
+import home1 from "../assets/gallery/home1.jpeg";
+import home2 from "../assets/gallery/home2.jpg";
+import home3 from "../assets/gallery/home3.jpeg";
+import home4 from "../assets/gallery/home4.jpg";
+import home5 from "../assets/gallery/home5.jpeg";
+import home6 from "../assets/gallery/home6.jpg";
+import home7 from "../assets/gallery/home7.jpeg";
+import home8 from "../assets/gallery/home8.jpeg";
 
 function Gallery() {
   return (

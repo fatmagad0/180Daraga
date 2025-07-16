@@ -7,7 +7,7 @@ import stage from "../assets/stage17-2ee502f1.jpeg"
 function Home() {
   return (
     <div>
-      <Hero image={stage} alt="Stage" height="h-[60vh]" title={"REDIRECT YOUR THINKING"} subtitle={"THE OFFICIAL 180 DARAGA WEBSITE!"}/>
+      <Hero  image={stage} alt="Stage" height="h-[70vh]" title={"REDIRECT YOUR THINKING"} subtitle={"THE OFFICIAL 180 DARAGA WEBSITE!"}/>
       <About/>
       <Stats/>
       <Gallery/>

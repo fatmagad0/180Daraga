@@ -1,5 +1,3 @@
-import React from 'react';
-
 const eventsData = [
   {
     year: 2025,
@@ -199,7 +197,6 @@ const eventsData = [
 function EventsData() {
   return (
     <div className="relative w-full py-16 bg-white">
-      {/* الخط العمودي */}
       <div className="absolute left-1/2 top-16 bottom-0 w-1 bg-orange-800 transform -translate-x-1/2"></div>
 
       <div className="flex flex-col gap-20">
@@ -207,7 +204,6 @@ function EventsData() {
           const isLeft = index % 2 !== 0;
           return (
             <div key={index} className="relative w-full flex justify-center items-center">
-              {/* بوكس الحدث */}
               <div
                 className={`bg-red-900 text-white p-6 rounded shadow-md w-[25%] ${
                   isLeft ? 'mr-[30%]' : 'ml-[30%]'
@@ -221,7 +217,6 @@ function EventsData() {
                 </ul>
               </div>
 
-              {/* الدائرة بين الخط والبوكس */}
               <div
                 className="w-5 h-5 bg-orange-800 border-3 border-yellow-300 rounded-full absolute "
                 style={{
